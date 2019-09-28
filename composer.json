@@ -6,7 +6,9 @@
   "require": {
     "php": ">=5.3.7",
     "doctrine/orm": "^2.6.2",
-    "symfony/yaml": "2.*"
+	  "symfony/yaml": "2.*",
+	  "components/jquery": "3.*",
+	  "twbs/bootstrap": "4.3.1"
   },
   "suggest": {
     "paragonie/random_compat": "Provides better randomness in PHP 5.x"
