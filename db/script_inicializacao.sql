@@ -81,4 +81,5 @@ create table prj_solicitacoes.solicitacao
 
 create user usr_app with password 'teste123';
 grant usage on schema prj_solicitacoes to usr_app;
+GRANT SELECT ON ALL TABLES IN SCHEMA prj_solicitacoes TO usr_app;
 GRANT USAGE, SELECT ON ALL SEQUENCES IN SCHEMA prj_solicitacoes TO usr_app;
