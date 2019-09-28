@@ -305,8 +305,9 @@ switch (ENVIRONMENT)
 
 	define('VIEWPATH', $view_folder.DIRECTORY_SEPARATOR);
 
-	defined ('CSSPATH') || define('CSSPATH', 'public/css');
-    defined ('JSPATH') || define('JSPATH', 'public/js');
+defined('CSSPATH') || define('CSSPATH', 'public' . DIRECTORY_SEPARATOR . 'css' . DIRECTORY_SEPARATOR);
+defined('JSPATH') || define('JSPATH', 'public' . DIRECTORY_SEPARATOR . 'js' . DIRECTORY_SEPARATOR);
+defined('VENDORPATH') || define('VENDORPATH', DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR);
 
 /*
  * --------------------------------------------------------------------
